@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.fss.tcbs.mobiletrading"
+    android:id="@+id/sccashtransfer_register"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_fragment"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/m_paddingLeft"
+    android:paddingRight="@dimen/m_paddingRight" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+
+                <TextView
+                    android:id="@+id/tv_taikhoannganhang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/TaiKhoanNganHang" />
+
+                <TextView
+                    android:id="@+id/tv_markerror_tkmnh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@id/tv_taikhoannganhang"
+                    android:text="*"
+                    android:textColor="#FF0000" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edt_sctransferregis_accountbank"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="@string/TaiKhoanNganHang"
+                android:background="@drawable/bg_edittext_hideunderline"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+
+                <TextView
+                    android:id="@+id/tv_tennguoithuhuong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/TenNguoiThuHuong" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_sctransferregis_beneficiaryname"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#C8C8C8" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+
+                <TextView
+                    android:id="@+id/tv_phonggiaodich"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/PhongGiaoDich" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_sctransferregis_branch"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#C8C8C8" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+
+                <TextView
+                    android:id="@+id/tv_tinhthanhpho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/TinhThanhPho" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_sctransferregis_city"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="15dp"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#C8C8C8" />
+            <!-- <mobiletrading.design.LabelContentLayout -->
+            <!-- android:id="@+id/edt_sctransferregis_accountbank" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="@dimen/m_labelcontentverlayout_height" -->
+            <!-- app:contentColor="@color/text_color" -->
+            <!-- app:contentHint="@string/TaiKhoanNganHang" -->
+            <!-- app:editable="true" -->
+            <!-- app:labelText="@string/TaiKhoanNganHang" -->
+            <!-- app:orientation="vertical" /> -->
+
+
+            <!-- <mobiletrading.design.LabelContentLayout -->
+            <!-- android:id="@+id/text_sctransferregis_beneficiaryname" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="@dimen/m_labelcontentverlayout_height" -->
+            <!-- app:contentColor="@color/text_color" -->
+            <!-- app:contentHint="@string/TenNguoiThuHuong" -->
+            <!-- app:labelText="@string/TenNguoiThuHuong" -->
+            <!-- app:orientation="vertical" -->
+            <!-- app:singleLine="true" /> -->
+
+
+            <!-- <mobiletrading.design.LabelContentLayout -->
+            <!-- android:id="@+id/text_sctransferregis_branch" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="@dimen/m_labelcontentverlayout_height" -->
+            <!-- app:contentColor="@color/text_color" -->
+            <!-- app:contentHint="@string/PhongGiaoDich" -->
+            <!-- app:labelText="@string/PhongGiaoDich" -->
+            <!-- app:orientation="vertical" -->
+            <!-- app:singleLine="true" /> -->
+
+
+            <!-- <mobiletrading.design.LabelContentLayout -->
+            <!-- android:id="@+id/text_sctransferregis_city" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="@dimen/m_labelcontentverlayout_height" -->
+            <!-- app:contentColor="@color/text_color" -->
+            <!-- app:contentHint="@string/TinhThanhPho" -->
+            <!-- app:labelText="@string/TinhThanhPho" -->
+            <!-- app:orientation="vertical" -->
+            <!-- app:singleLine="true" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_DKCT_MSB_ChapNhan"
+            style="@style/Button_Background1"
+            android:text="@string/XacNhan" />
+    </LinearLayout>
+
+</LinearLayout>

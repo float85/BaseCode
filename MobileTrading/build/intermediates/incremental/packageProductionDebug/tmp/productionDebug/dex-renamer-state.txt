@@ -1,0 +1,7 @@
+#Fri Feb 22 16:40:20 ICT 2019
+base.0=D\:\\1. Cong Viec\\TCBS\\mobile-android\\MobileTrading\\build\\intermediates\\dex\\productionDebug\\mergeDexProductionDebug\\out
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\1. Cong Viec\\TCBS\\mobile-android\\MobileTrading\\build\\intermediates\\dex\\productionDebug\\mergeDexProductionDebug\\out

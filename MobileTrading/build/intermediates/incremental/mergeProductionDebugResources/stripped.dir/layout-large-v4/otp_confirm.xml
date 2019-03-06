@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/otp_confirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OTPConfirm">
+
+    <LinearLayout
+        android:layout_width="@dimen/t_formotp_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_conner_tabletlogin"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/t_otpconfirm_icon_width"
+            android:layout_height="@dimen/t_otpconfirm_icon_height">
+
+            <ImageView
+                android:id="@+id/img_otpconfirm_back"
+                android:layout_width="2dp"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/actionbar_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_back"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_logo" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/lock" />
+
+        <TextView
+            android:id="@+id/text_otpconfirm_text1"
+            style="@style/Label_Style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_otpconfirm_text2"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/edt_otp_confirm_importotp"
+                style="@style/EditText_Style"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:hint="@string/NhapMaXacThuc"
+                android:paddingLeft="5dp">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_otp_confirm_next"
+                style="@style/Button_Background1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/backgroud_btnotp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/TiepTuc" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/text_otpconfirm_text2"
+            style="@style/Label_Style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_otp_confirm_importotp"
+            android:layout_marginTop="20dp" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_otpconfirm_text2"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_otpconfirm_back"
+                style="@style/Button_Background1"
+                android:layout_width="@dimen/btn_opt_width"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_grey_button_corner5"
+                android:text="@string/ButtonBack" />
+
+            <Button
+                android:id="@+id/btn_otp_confirm_GetOTP"
+                style="@style/Button_Background1"
+                android:layout_width="@dimen/btn_opt_width"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/LayMaXacThuc" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

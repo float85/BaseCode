@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_fragment"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <mobiletrading.design.LabelContentLayout
+                    android:id="@+id/lb_sotaikhoan"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/m_labelcontentverlayout_height"
+                    android:layout_weight="1"
+
+                    app:labelText="@string/SoTaiKhoan"
+                    app:orientation="vertical" />
+
+                <mobiletrading.design.LabelContentLayout
+                    android:id="@+id/spn_sotieukhoan"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    app:labelText="@string/SoTieuKhoan"
+                    app:orientation="vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <mobiletrading.design.LabelContentLayout
+                    android:id="@+id/spn_nganhangtaikhoan"
+                    android:layout_width="@dimen/t_cashtransfer_frame_width"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    app:labelText="@string/NganHangKetNoi"
+                    app:orientation="vertical" />
+
+                <mobiletrading.design.LabelContentLayout
+                    android:id="@+id/lb_sotknganhangketnoi"
+                    android:layout_width="@dimen/t_cashtransfer_frame_width"
+                    android:layout_height="@dimen/m_labelcontentverlayout_height"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    app:labelText="@string/SoTKNganHangKetNoi"
+                    app:orientation="vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <mobiletrading.design.LabelContentLayout
+                    android:id="@+id/lb_TuDongChuyenTienSangIA"
+                    android:layout_width="@dimen/t_cashtransfer_frame_width"
+                    android:layout_height="60dp"
+                    android:visibility="gone"
+                    app:contentText="@string/na"
+                    app:labelText="@string/TudongchuyentiensangIA"
+                    app:orientation="vertical" />
+
+                <mobiletrading.design.MySpinner
+                    android:id="@+id/spn_TuDongChuyenTienSangIA"
+                    android:layout_width="@dimen/t_cashtransfer_frame_width"
+                    android:layout_height="60dp"
+                    app:hasLabel="true"
+                    app:textMySpinner="@string/TudongchuyentiensangIA" />
+
+                <mobiletrading.design.LabelContentLayout
+                    android:id="@+id/lb_dungtkPhuTraNo"
+                    android:layout_width="@dimen/t_cashtransfer_frame_width"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:visibility="gone"
+                    app:contentText="@string/na"
+                    app:labelText="@string/DungTKphudetrano"
+                    app:orientation="vertical" />
+
+                <mobiletrading.design.MySpinner
+                    android:id="@+id/spn_dungtkPhuTraNo"
+                    android:layout_width="@dimen/t_cashtransfer_frame_width"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:hasLabel="true"
+                    app:textMySpinner="@string/DungTKphudetrano" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/vOTPChangeBank"
+                android:layout_width="@dimen/t_cashtransfer_frame_width"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <mobiletrading.design.LabelContentLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:labelText="@string/NhapMaXacThuc"
+                    app:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal"
+                   >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/etSaveOTPChangeBank"
+                        style="@style/EditText_Style"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:hint="@string/NhapOTP"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_ChapNhan"
+                style="@style/Button_Background1"
+                android:layout_width="200dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/XacNhan" />
+
+            <Button
+                android:id="@+id/btn_disconnect"
+                style="@style/Button_Background1"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/disconnectinfo"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

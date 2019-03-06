@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dp"
+    android:background="@color/contextmenu_background_color"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <customwidget.contextmenu.BoundedLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:maxheight="405dp" >
+
+        <ListView
+            android:id="@+id/lv_dialog_contextmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+        </ListView>
+    </customwidget.contextmenu.BoundedLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#bbbbbb" />
+
+    <TextView
+        android:id="@+id/text_dialog_contextmenu_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/Huy"
+        android:textColor="@color/red_brown_text"
+        android:textSize="18sp" />
+
+</LinearLayout>

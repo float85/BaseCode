@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:2:5-37
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:4:5-30
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml:3:5-28
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\customwidget\AndroidManifest.xml

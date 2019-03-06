@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:1-7:12
+	package
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:3:5-37
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:5:5-47
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml:4:5-34
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+		ADDED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml
+		INJECTED from D:\1. Cong Viec\TCBS\mobile-android\google-play-services_lib\AndroidManifest.xml

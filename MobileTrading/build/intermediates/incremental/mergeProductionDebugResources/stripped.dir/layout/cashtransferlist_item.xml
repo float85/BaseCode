@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_beneficiaryname"
+                style="@style/Label_Style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/text_account"
+                style="@style/Label_Style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:textColor="@color/green_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_subaccount"
+            style="@style/Label_Style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/label_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_branch"
+            style="@style/Label_Style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/label_color"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_city"
+            style="@style/Label_Style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/label_color"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/expand_listview_item_division" />
+
+    <LinearLayout
+        android:id="@+id/cashtransferlist_itemview_expand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expand_listview_item_height"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <customwidget.button.ButtonStyle1
+            android:id="@+id/btn_cashtransferlistitem_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Xoa" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.fss.tcbs.mobiletrading"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_fragment"
+    android:orientation="vertical" >
+
+    <customwidget.tabselector.TabSelector
+        android:id="@+id/tab_gtcorderlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <customwidget.tabselector.TabItem
+            android:id="@+id/tab_gtcorderlist_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            app:textTabItem="@string/solenh_label_All" />
+
+        <customwidget.tabselector.TabItem
+            android:id="@+id/tab_gtcorderlist_receiving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            app:textTabItem="@string/Cho" />
+
+        <customwidget.tabselector.TabItem
+            android:id="@+id/tab_gtcorderlist_matched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            app:textTabItem="@string/HoatDong" />
+
+        <customwidget.tabselector.TabItem
+            android:id="@+id/tab_gtcorderlist_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            app:textTabItem="@string/Cancel" />
+    </customwidget.tabselector.TabSelector>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/header_separation_color" />
+
+    <customwidget.viewpager.NonSwipeableViewPager
+        android:id="@+id/viewpager_gtcorderlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

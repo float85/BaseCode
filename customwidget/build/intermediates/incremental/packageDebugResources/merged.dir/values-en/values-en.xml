@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Huy">Cancel</string>
+    <string name="HuyBo">Cancel</string>
+    <string name="XacNhan">Ok</string>
+    <string name="app_name">customwidget</string>
+</resources>

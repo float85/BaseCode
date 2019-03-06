@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MTrading_Common/MTrading_Common.iml" filepath="$PROJECT_DIR$/MTrading_Common/MTrading_Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobileTrading/MobileTrading.iml" filepath="$PROJECT_DIR$/MobileTrading/MobileTrading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customwidget/customwidget.iml" filepath="$PROJECT_DIR$/customwidget/customwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-android.iml" filepath="$PROJECT_DIR$/mobile-android.iml" />
+    </modules>
+  </component>
+</project>

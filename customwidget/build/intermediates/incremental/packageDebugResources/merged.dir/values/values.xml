@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alertdialog_background_color">#302F37</color>
+    <color name="alertdialog_message_color">#99ffffff</color>
+    <color name="bg_item_childs">#880008</color>
+    <color name="bg_item_parent">#B40D17</color>
+    <color name="bg_slidemenutablet_item_actived">#3A0008</color>
+    <color name="bg_tabitem_active">#EBEBEB</color>
+    <color name="bg_tabitem_inactive">#C2C2C2</color>
+    <color name="bg_tabselector">#262630</color>
+    <color name="bg_verticaldialog_active">#0d8bba</color>
+    <color name="bg_verticaldialog_inactive">#2B2D41</color>
+    <color name="buttonstyle1_default_bgcolor">#eeeeee</color>
+    <color name="buttonstyle1_pressed_bgcolor">#50ff0000</color>
+    <color name="buttonstyle1_titlecolor">#eb1c23</color>
+    <color name="contextmenu_background_color">#ffffff</color>
+    <color name="expand_listview_item_button_background">#eeeeee</color>
+    <color name="expand_listview_item_button_pressed_background">#50ff0000</color>
+    <color name="expand_listview_item_button_textcolor">#FFFFFF</color>
+    <color name="expand_listview_item_division">#25FFFFFF</color>
+    <color name="expand_listview_item_selected_background">#70cccccc</color>
+    <color name="green_text">#21B545</color>
+    <color name="header_separation_color">#40A6A6A6</color>
+    <color name="pressstate_background_levelonemenuitem">#880008</color>
+    <color name="red_brown_text">#EE393E</color>
+    <color name="selectedstate_background_levelonemenuitem">#880008</color>
+    <color name="slidemenuitem_active_background">#606060</color>
+    <color name="slidemenuitem_active_textcolor">#FFFFFF</color>
+    <color name="slidemenuitem_inactive_background">#7F7F7F</color>
+    <color name="slidemenuitem_inactive_textcolor">#FFFFFF</color>
+    <color name="slidemenuitem_tablet_active_background">#00FF00</color>
+    <color name="slidemenuitem_tablet_inactive_background">#880008</color>
+    <color name="tabitem_active_texcolor">#b40d17</color>
+    <color name="tabitem_inactive_texcolor">#606060</color>
+    <color name="tabitem_underline_color">#b40d17</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="viewline">#C8C8C8</color>
+    <color name="white_text">#ffffffff</color>
+    <dimen name="alertdialog_content_height">80dp</dimen>
+    <dimen name="alertdialog_title_height">40dp</dimen>
+    <dimen name="alertdialog_width">300dp</dimen>
+    <dimen name="checkboximage_height">20dp</dimen>
+    <dimen name="checkboximage_width">20dp</dimen>
+    <dimen name="checkboxlabel_textsize">14sp</dimen>
+    <dimen name="dialog_width">250dp</dimen>
+    <dimen name="expand_listview_item_button_height">25sp</dimen>
+    <dimen name="expand_listview_item_height">35dp</dimen>
+    <dimen name="padding_slidemenu_tablet">18dp</dimen>
+    <dimen name="padding_slidemenu_tablet_logout">10dp</dimen>
+    <dimen name="slidemenu_item_textsize">15sp</dimen>
+    <dimen name="slidemenuitem_height">40sp</dimen>
+    <dimen name="slidemenutitle_textsize">14sp</dimen>
+    <dimen name="tabitem_textsize">15sp</dimen>
+    <dimen name="tabselector_tabitem_height">35dp</dimen>
+    <dimen name="text_size_dialog">14sp</dimen>
+    <dimen name="width_slidemenu_tablet">50dp</dimen>
+    <string name="Huy">Hủy</string>
+    <string name="HuyBo">Hủy bỏ</string>
+    <string name="XacNhan">Xác nhận</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <declare-styleable name="BoundedLinearLayout">
+        <attr format="dimension" name="maxheight"/>
+    </declare-styleable>
+    <declare-styleable name="Checkbox">
+        <attr format="string" name="checkboxLabel"/>
+        <attr format="boolean" name="checkboxActive"/>
+        <attr format="reference" name="checkboxActiveImg"/>
+        <attr format="reference" name="checkboxInActiveImg"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+	    <attr format="integer" name="trimLength"/>
+	    
+	</declare-styleable>
+    <declare-styleable name="TabItem">
+        <attr format="string" name="textTabItem"/>
+    </declare-styleable>
+</resources>

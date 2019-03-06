@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/m_paddingLeft"
+        android:paddingRight="@dimen/m_paddingRight"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tu"
+            android:textColor="#ff0000"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_fromDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/text_color"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/Den"
+            android:textColor="#ff0000"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_toDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/text_color"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="@dimen/m_paddingLeft"
+        android:paddingRight="@dimen/m_paddingRight" >
+
+        <TextView
+            android:id="@+id/lbl_solenhgtc_item_CustodyCd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="@string/TK"
+            android:textColor="@color/text_color"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_CustodyCd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl_solenhgtc_item_CustodyCd"
+            android:paddingLeft="3dp"
+            android:textColor="@color/text_color"
+            android:textSize="13.0sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/m_paddingLeft"
+        android:paddingRight="@dimen/m_paddingRight" >
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_Side"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_MaCK"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_SoLuong"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:textColor="@color/red_brown_text"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_Gia"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.7"
+            android:gravity="center"
+            android:textColor="@color/red_brown_text"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/text_solenhgtc_item_TrangThai"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.8"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="15.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gtcorderlist_itemview_expand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expand_listview_item_height"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <customwidget.button.ButtonStyle1
+            android:id="@+id/btn_solenhgtc_item_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:textSize="15sp" />
+        <customwidget.button.ButtonStyle1
+            android:id="@+id/btn_solenhgtc_item_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ChiTiet"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.fss.tcbs.mobiletrading"
+    android:id="@+id/internalcashtransfer_register"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_fragment"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="@dimen/t_padding_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/t_cashtransfer_frame_height"
+            android:layout_marginTop="15dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/text_internalcashtransfer_register_switch"
+                android:layout_width="@dimen/t_cashtransfer_frame_width"
+                android:layout_height="@dimen/t_cashtransfer_frame_content"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/lbl_myspinner_spn"
+                    style="@style/Label_Style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toLeftOf="@+id/btn_myspinner"
+                    android:clickable="false"
+                    android:singleLine="true"
+                    android:text="@string/HinhThucChuyenKhoan"
+                    android:textSize="@dimen/t_cashtransfer_labletextsize" />
+
+                <TextView
+                    android:id="@+id/text_myspinner_spn"
+                    style="@style/Content_Style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/lbl_myspinner_spn"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toLeftOf="@+id/btn_myspinner"
+                    android:clickable="false"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text="@string/InternalTransfer"
+                    android:textSize="@dimen/t_cashtransfer_contenttextsize" />
+
+                <ImageButton
+                    android:id="@+id/btn_myspinner"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:clickable="false"
+                    android:padding="0dp"
+                    android:rotation="90"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_arrow" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/lc_separation_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/t_cashtransfer_frame_width"
+                android:layout_height="@dimen/t_cashtransfer_frame_content"
+                android:layout_marginLeft="@dimen/t_cashtransferregister_marginleft" >
+
+                <TextView
+                    android:id="@+id/tv_taikhoannganhang"
+                    style="@style/Label_Style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/SoLuuKyNhan"
+                    android:textSize="@dimen/t_cashtransfer_labletextsize" />
+
+                <FrameLayout
+                    android:id="@+id/tv_markerror"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_taikhoannganhang"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_taikhoannganhang"
+                        android:text="*"
+                        android:textColor="#FF0000" />
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/edt_soluukynhan"
+                    style="@style/Content_Style"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/tv_taikhoannganhang"
+                    android:background="@drawable/bg_edittext_hideunderline"
+                    android:hint="@string/SoLuuKyNhan"
+                    android:textColorHint="@color/edittext_hint_color"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/lc_separation_color" />
+            </RelativeLayout>
+
+            <!-- <LinearLayout -->
+            <!-- android:layout_width="@dimen/t_cashtransfer_frame_width" -->
+            <!-- android:layout_height="@dimen/t_cashtransfer_frame_content" -->
+            <!-- android:orientation="vertical" -->
+            <!-- android:layout_marginLeft="25dp" -->
+            <!-- > -->
+
+
+            <!-- <TextView -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="@string/TenNguoiThuHuong" -->
+            <!-- android:textSize="@dimen/t_cashtransfer_labletextsize" /> -->
+
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/text_DKCT_noibo_NguoiNhan" -->
+            <!-- style="@style/Content_Style" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="45dp" -->
+            <!-- android:textSize="@dimen/t_cashtransfer_contenttextsize" /> -->
+
+
+            <!-- <View -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="0.5dp" -->
+            <!-- android:background="@color/lc_separation_color" /> -->
+            <!-- </LinearLayout> -->
+
+            <RelativeLayout
+                android:layout_width="@dimen/t_cashtransfer_frame_width"
+                android:layout_height="@dimen/t_cashtransfer_frame_content"
+                android:layout_marginLeft="@dimen/t_cashtransferregister_marginleft" >
+
+                <TextView
+                    android:id="@+id/tv_tennguoithuhuong"
+                    style="@style/Label_Style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/TenNguoiThuHuong"
+                    android:textSize="@dimen/t_cashtransfer_labletextsize" />
+
+                <FrameLayout
+                    android:id="@+id/tv_markerror_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_tennguoithuhuong"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="@color/red_color" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/text_DKCT_noibo_NguoiNhan"
+                    style="@style/Content_Style"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/tv_tennguoithuhuong"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/lc_separation_color" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- <mobiletrading.design.LabelContentLayout -->
+        <!-- android:id="@+id/edt_DKCT_noibo_SoLuuKy" -->
+        <!-- android:layout_width="@dimen/t_cashtransfer_frame_width" -->
+        <!-- android:layout_height="@dimen/t_cashtransfer_frame_content" -->
+        <!-- android:layout_marginLeft="@dimen/t_cashtransfer_frame_marginLeft" -->
+        <!-- app:contentColor="@color/text_color" -->
+        <!-- app:contentHint="@string/SoTaiKkhoanTaiSecurity" -->
+        <!-- app:contentsize_dimen="@dimen/t_cashtransfer_contenttextsize" -->
+        <!-- app:editable="true" -->
+        <!-- app:inputType="textCap" -->
+        <!-- app:labelText="@string/SoTaiKkhoanTaiSecurity" -->
+        <!-- app:labelsize_dimen="@dimen/t_cashtransfer_labletextsize" -->
+        <!-- app:orientation="vertical" /> -->
+
+
+        <!-- <mobiletrading.design.LabelContentLayout -->
+        <!-- android:id="@+id/text_DKCT_noibo_NguoiNhan" -->
+        <!-- android:layout_width="@dimen/t_cashtransfer_frame_width" -->
+        <!-- android:layout_height="@dimen/t_cashtransfer_frame_content" -->
+        <!-- android:layout_marginLeft="@dimen/t_cashtransfer_frame_marginLeft" -->
+        <!-- app:contentColor="@color/text_color" -->
+        <!-- app:contentsize_dimen="@dimen/t_cashtransfer_contenttextsize" -->
+        <!-- app:labelText="@string/TenNguoiThuHuong" -->
+        <!-- app:labelsize_dimen="@dimen/t_cashtransfer_labletextsize" -->
+        <!-- app:orientation="vertical" /> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/t_cashtransfer_frame_height"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <mobiletrading.design.MySpinner
+                android:id="@+id/spn_DKCT_noibo_SoTieuKhoan"
+                android:layout_width="@dimen/t_cashtransfer_frame_width"
+                android:layout_height="@dimen/t_cashtransfer_frame_content"
+                app:contentsize_dimen="@dimen/t_cashtransfer_contenttextsize"
+                app:hasLabel="true"
+                app:labelsize_dimen="@dimen/t_cashtransfer_labletextsize"
+                app:textMySpinner="@string/SoTieuKhoanTaiSecurity" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/Notice_DangKyChuyenTien"
+            android:textColor="@color/red_brown_text"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_DKCT_noibo_Clear"
+                style="@style/Button_Background1"
+                android:layout_width="@dimen/t_button_width"
+                android:background="@drawable/bg_grey_button_corner5"
+                android:text="@string/Cancel" />
+
+            <Button
+                android:id="@+id/btn_DKCT_noibo_ChapNhan"
+                style="@style/Button_Background1"
+                android:layout_width="@dimen/t_button_width"
+                android:layout_marginLeft="10dp"
+                android:text="@string/XacNhan" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

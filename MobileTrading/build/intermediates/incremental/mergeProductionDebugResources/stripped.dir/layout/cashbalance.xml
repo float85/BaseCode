@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_tab1"
+        style="@style/background_feature_phone" >
+
+        <LinearLayout
+            android:id="@+id/ll_tien"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_tien"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_tien"
+                style="@style/Label_Style"
+                android:text="@string/tab1_tien"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_tab1_tien"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_collapse_tien"
+            style="@style/LayoutCollapse_Style"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_collapse_tienmat"
+                style="@style/Label_Style"
+                android:text="@string/tab1_collapse_tienmat" />
+
+            <TextView
+                android:id="@+id/text_collapse_tienmat"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tienguicokyhan"
+                style="@style/Label_Style"
+                android:layout_below="@id/tv_collapse_tienmat"
+                android:text="@string/tab1_collapse_tienguicokyhan" />
+
+            <TextView
+                android:id="@+id/text_collapse_tienguicokyhan"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tienguicokyhan"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_laitiengui"
+                style="@style/Label_Style"
+                android:layout_below="@id/tv_collapse_tienguicokyhan"
+                android:text="@string/tab1_collapse_laitiengui" />
+
+            <TextView
+                android:id="@+id/text_collapse_laitiengui"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_laitiengui"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tiencotucchove"
+                style="@style/Label_Style"
+                android:layout_below="@id/tv_collapse_laitiengui"
+                android:text="@string/tab1_collapse_tiencotucchove" />
+
+            <TextView
+                android:id="@+id/text_collapse_tiencotucchove"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tiencotucchove"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tienchovet0"
+                style="@style/Label_Style"
+                android:layout_below="@id/tv_collapse_tiencotucchove"
+                android:text="@string/tab1_collapse_tienchovet0" />
+
+            <TextView
+                android:id="@+id/text_collapse_tienchovet0"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tienchovet0"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tienchovet1"
+                style="@style/Label_Style"
+                android:layout_below="@id/tv_collapse_tienchovet0"
+                android:text="@string/tab1_collapse_tienchovet1" />
+
+            <TextView
+                android:id="@+id/text_collapse_tienchovet1"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tienchovet1"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tienchovet2"
+                style="@style/Label_Style"
+                android:layout_below="@id/tv_collapse_tienchovet1"
+                android:text="@string/tab1_collapse_tienchovet2" />
+
+            <TextView
+                android:id="@+id/text_collapse_tienchovet2"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tienchovet2"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tienmuachokhop"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:layout_below="@id/tv_collapse_tienchovet2"
+                android:text="@string/tab1_collapse_tienmuachokhop" />
+
+            <TextView
+                android:id="@+id/text_collapse_tienmuachokhop"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tienmuachokhop"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_chungkhoan"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_chungkhoan"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_chungkhoan"
+                style="@style/Label_Style"
+                android:text="@string/tab1_chungkhoan"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_chungkhoan"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_collapse_chungkhoan"
+            style="@style/LayoutCollapse_Style"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_collapse_chungkhoan_ok"
+                style="@style/Label_Style"
+                android:layout_width="180dp"
+                android:text="@string/tab1_collapse_chungkhoan_ok" />
+
+            <TextView
+                android:id="@+id/text_collapse_chungkhoan_ok"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_chungkhoan_ko"
+                style="@style/Label_Style"
+                android:layout_width="180dp"
+                android:layout_below="@id/tv_collapse_chungkhoan_ok"
+                android:text="@string/tab1_collapse_chungkhoan_ko" />
+
+            <TextView
+                android:id="@+id/text_collapse_chungkhoan_ko"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_chungkhoan_ko"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_tab1_chungkhoan_vaycamco"
+                style="@style/Label_Style"
+                android:layout_width="180dp"
+                android:layout_below="@id/tv_collapse_chungkhoan_ko"
+                android:text="@string/tab1_collapse_chungkhoan_vaycamco" />
+
+            <TextView
+                android:id="@+id/text_collapse_chungkhoan_vaycamco"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_tab1_chungkhoan_vaycamco"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tongtaisan"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_tongtaisan"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_tongtaisan"
+                style="@style/Label_Style"
+                android:text="@string/tab1_tongtaisan"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_tongtaisan"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_taisanrong"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_taisanrong"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_taisanrong"
+                style="@style/Label_Style"
+                android:text="@string/tab1_taisanrong"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_taisanrong"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_hanmuc"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_hanmuc"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_hanmuc"
+                style="@style/Label_Style"
+                android:text="@string/tab1_hanmuc"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_hanmuc"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tongno"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_tongno"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_tongno"
+                style="@style/Label_Style"
+                android:text="@string/tab1_tongno"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_tongno"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_collapse_tongno"
+            style="@style/LayoutCollapse_Style"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_collapse_nokyquytrongngay"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:text="@string/tab1_collapse_nokyquytrongngay" />
+
+            <TextView
+                android:id="@+id/text_collapse_nokyquytrongngay"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_not3chuathanhtoankyquy"
+                style="@style/Label_Style"
+                android:layout_width="200dp"
+                android:layout_below="@id/tv_collapse_nokyquytrongngay"
+                android:text="@string/tab1_collapse_not3chuathanhtoankyquy" />
+
+            <TextView
+                android:id="@+id/text_collapse_not3chuathanhtoankyquy"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_not3chuathanhtoankyquy"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_novaybaolanh"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:layout_below="@id/tv_collapse_not3chuathanhtoankyquy"
+                android:text="@string/tab1_collapse_novaybaolanh" />
+
+            <TextView
+                android:id="@+id/text_collapse_novaybaolanh"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_novaybaolanh"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_novaykyquyt3"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:layout_below="@id/tv_collapse_novaybaolanh"
+                android:text="@string/tab1_collapse_novaykyquyt3" />
+
+            <TextView
+                android:id="@+id/text_collapse_novaykyquyt3"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_novaykyquyt3"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_novayungtruoc"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:layout_below="@id/tv_collapse_novaykyquyt3"
+                android:text="@string/tab1_collapse_novayungtruoc" />
+
+            <TextView
+                android:id="@+id/text_collapse_novayungtruoc"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_novayungtruoc"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_novaycamcochungkhoan"
+                style="@style/Label_Style"
+                android:layout_width="190dp"
+                android:layout_below="@id/tv_collapse_novayungtruoc"
+                android:text="@string/tab1_collapse_novaycamcochungkhoan" />
+
+            <TextView
+                android:id="@+id/text_collapse_novaycamcochungkhoan"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_novaycamcochungkhoan"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_vaycamcotiengui"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:layout_below="@id/tv_collapse_novaycamcochungkhoan"
+                android:text="@string/tab1_collapse_vaycamcotiengui" />
+
+            <TextView
+                android:id="@+id/text_collapse_vaycamcotiengui"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_vaycamcotiengui"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_nophiluuky"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:layout_below="@id/tv_collapse_vaycamcotiengui"
+                android:text="@string/tab1_collapse_nophiluuky" />
+
+            <TextView
+                android:id="@+id/text_collapse_nophiluuky"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_nophiluuky"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sucmua"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_sucmua"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_sucmua"
+                style="@style/Label_Style"
+                android:text="@string/tab1_sucmua"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_sucmua"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_collapse_sucmua"
+            style="@style/LayoutCollapse_Style"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_collapse_phainopbosung"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:text="@string/tab1_collapse_phainopbosung" />
+
+            <TextView
+                android:id="@+id/text_collapse_phainopbosung"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tylevayhientai"
+            style="@style/Layout_Style"
+            android:background="@drawable/bg_viewgroup_textline" >
+
+            <ImageView
+                android:id="@+id/iv_collapse_tylevayhientai"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:src="@drawable/arrow_red" />
+
+            <TextView
+                android:id="@+id/tv_tab1_tylevayhientai"
+                style="@style/Label_Style"
+                android:text="@string/tab1_tylevayhientai"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_tab1_tylevayhientai"
+                style="@style/Content_Style_match_parent_width"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_collapse_tylevayhientai"
+            style="@style/LayoutCollapse_Style"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_collapse_tylecall"
+                style="@style/Label_Style"
+                android:layout_width="160dp"
+                android:text="@string/tab1_collapse_tylecall" />
+
+            <TextView
+                android:id="@+id/text_collapse_tylecall"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_collapse_tylexuly"
+                style="@style/Label_Style"
+                android:layout_width="200dp"
+                android:layout_below="@id/tv_collapse_tylecall"
+                android:text="@string/tab1_collapse_tylexuly" />
+
+            <TextView
+                android:id="@+id/text_collapse_tylexuly"
+                style="@style/Content_Style_match_parent_width"
+                android:layout_alignBottom="@id/tv_collapse_tylexuly"
+                android:layout_alignParentRight="true" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

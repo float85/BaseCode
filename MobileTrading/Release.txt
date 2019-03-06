@@ -1,0 +1,5 @@
+06-01-2016:
+	1. Fix loi ...
+	Màn hình confirm đăng ký quyền mua bên phone
+	thông báo lỗi "RightOffRegisterConfirmServiceLỗi"
+	
