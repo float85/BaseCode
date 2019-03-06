@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/background_feature_phone" >
-
-    <ListView
-        android:id="@+id/listview_stockbalance"
-        style="@style/ListView_Style" />
-
-</LinearLayout>

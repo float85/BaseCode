@@ -1,1 +1,0 @@
-[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":13,"versionName":"1.1.7","enabled":true,"outputFile":"MobileTrading-production-debug.apk","fullName":"productionDebug","baseName":"production-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.fss.tcbs.mobiletrading","split":"","minSdkVersion":"15"}}]
